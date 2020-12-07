@@ -26,7 +26,7 @@ p {
 }
 
 .tm-primary-color {
-  color: #61AEAE;
+  color: #539e53;
 }
 
 .tm-secondary-color {
@@ -65,10 +65,32 @@ p {
   color: #999A9B;
 }
 
+.tm-nav-gallery {
+	position: absolute;
+	right: -250px;
+	top: 45px;
+  }
+  
+  .tm-nav-gallery > ul > li {
+	list-style: none;
+  }
+  
+  .tm-nav-gallery > ul > li > a {
+	display: block;
+	padding: 12px 15px;
+	color: #999A9B;
+  }
+
 .tm-nav > ul > li.active > a,
 .tm-nav > ul > li > a:hover,
 .tm-nav > ul > li > a:focus {
-  color: #0299CC;
+  color:#d4914a;
+}
+
+.tm-nav-gallery > ul > li.active > a,
+.tm-nav-gallery > ul > li > a:hover,
+.tm-nav-gallery > ul > li > a:focus {
+  color:#54e047;
 }
 
 .tm-nav-deco {
@@ -80,11 +102,27 @@ p {
   margin-right: 20px;
 }
 
+.tm-nav-deco-gallery {
+	display: inline-block;
+	width: 20px;
+	height: 8px;
+	background-color: #999A9B;
+	vertical-align: middle;
+	margin-right: 20px;
+  }
+
 .tm-nav > ul > li.active > a > .tm-nav-deco,
 .tm-nav > ul > li:hover > a > .tm-nav-deco
  {
-  background-color: #0299CC;
+  background-color: #d4914a;
 }
+
+.tm-nav > ul > li.active > a > .tm-nav-deco-gallery,
+.tm-nav > ul > li:hover > a > .tm-nav-deco-gallery
+ {
+  background-color: #56d84b;
+}
+
 
 .tm-content {  
   padding: 55px;
@@ -377,4 +415,12 @@ figcaption {
     display: block;
     padding: 15px;
   }
+}
+
+/* Custom stuff :P */
+
+.texto-central {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	align-content: center;
+	size: 30px;
 }
