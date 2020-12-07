@@ -26,7 +26,7 @@ p {
 }
 
 .tm-primary-color {
-  color: #61AEAE;
+  color: #539e53;
 }
 
 .tm-secondary-color {
@@ -68,7 +68,7 @@ p {
 .tm-nav > ul > li.active > a,
 .tm-nav > ul > li > a:hover,
 .tm-nav > ul > li > a:focus {
-  color: #0299CC;
+  color:#d4914a;
 }
 
 .tm-nav-deco {
@@ -83,7 +83,7 @@ p {
 .tm-nav > ul > li.active > a > .tm-nav-deco,
 .tm-nav > ul > li:hover > a > .tm-nav-deco
  {
-  background-color: #0299CC;
+  background-color: #d4914a;
 }
 
 .tm-content {  
