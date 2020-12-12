@@ -78,11 +78,7 @@ p {
   .tm-nav-gallery > ul > li > a {
 	display: block;
 	padding: 12px 15px;
-<<<<<<< Updated upstream
 	color: #999b9a;
-=======
-	color: #999b99;
->>>>>>> Stashed changes
   }
 
 .tm-nav > ul > li.active > a,
@@ -94,13 +90,10 @@ p {
 .tm-nav-gallery > ul > li.active > a,
 .tm-nav-gallery > ul > li > a:hover,
 .tm-nav-gallery > ul > li > a:focus {
-<<<<<<< Updated upstream
-  color: #539e53;
-=======
-  color:#539e53;
->>>>>>> Stashed changes
-}
 
+  color:#539e53;
+
+}
 .tm-nav-deco {
   display: inline-block;
   width: 20px;
@@ -109,6 +102,7 @@ p {
   vertical-align: middle;
   margin-right: 20px;
 }
+
 
 .tm-nav-deco-gallery {
 	display: inline-block;
@@ -439,11 +433,7 @@ figcaption {
 .arrow {
 	width: 60px;
 	height: 82px;
-<<<<<<< Updated upstream
 	position: absolute; /* don't forget set container to relative */
-=======
-	position: relative; /* don't forget set container to relative */
->>>>>>> Stashed changes
 	left: 49%;
 	margin-left: 0px;
 	bottom: 5%;
@@ -466,7 +456,6 @@ figcaption {
 /* arrow animation delay */
 .arrow path.a1{	animation-delay:-1s; }
 .arrow path.a2{	animation-delay:-.5s; }
-<<<<<<< Updated upstream
 .arrow path.a3{	animation-delay:0s; }
 
 /* Contenedor de la flecha*/
@@ -474,6 +463,4 @@ figcaption {
 	position: relative;
 	padding-top: 80px;
 }
-=======
-.arrow path.a3{	animation-delay:0s; }
->>>>>>> Stashed changes
+
